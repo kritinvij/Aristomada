@@ -1,14 +1,6 @@
 .jumbotron {
-  background: url("study.jpg") no-repeat center center; 
-/*    background-size: 100%;*/
-    background-size: 100% 100%; */
-/*
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-*/
-/*    background-size: 100% 100%;*/
-    
+  background: url("banner.jpg") no-repeat center center; 
+    background-size: 100% 100%;
 }
 
 .navbar {
@@ -16,10 +8,14 @@
 }
 
 html,body {height:100%;}
-.element, .jumbotron, #about, #who, #contact, #download {height:98%;}
+.element, #first, #about, #who, #contact, #download {height:100%;}
 
 .jumbotron img{
     height: 100%;
+}
+
+.jumbotron {
+    height: 90%;   
 }
 
 .navbar-header{
@@ -59,10 +55,53 @@ a {
 
 .element, #about, #who, #contact, #download {
     margin: 0px;   
-    padding: 0px;
+}
+
+#about, #who, #contact, #download {
+    padding: 30px;   
 }
 
 h1, p{
     margin: 0px;
     padding: 0px;
+}
+
+h1, #boldit {
+    color: white;
+    font-weight: bold;
+}
+
+h1, h2 {
+    display: inline-block;
+    color: rgb(194, 126, 126);
+}
+
+.title {
+    color: black;
+    font-size: 48px;
+}
+
+#boldit {
+    font-size: 57px;
+}
+
+.jumbotron div {
+    display: inline;
+    margin-bottom: 0px;
+        padding-bottom: 0px;
+}
+
+.jumbotron h2 {
+    display: inline-block;
+    margin: 0px;
+        padding: 5px;
+}
+
+.title div {
+    font-size: 36px;
+}
+
+#about {
+      background: url("bg2.jpg") no-repeat center center; 
+    background-size: 100% 100%; 
 }
