@@ -1,0 +1,9 @@
+'Domains'
+    Study
+        -academics, course
+    Connect
+        -group
+        
+Academate
+Studybuddy
+Academiconnect
