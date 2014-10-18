@@ -1,0 +1,68 @@
+.jumbotron {
+  background: url("study.jpg") no-repeat center center; 
+/*    background-size: 100%;*/
+    background-size: 100% 100%; */
+/*
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+*/
+/*    background-size: 100% 100%;*/
+    
+}
+
+.navbar {
+    border: none;   
+}
+
+html,body {height:100%;}
+.element, .jumbotron, #about, #who, #contact, #download {height:98%;}
+
+.jumbotron img{
+    height: 100%;
+}
+
+.navbar-header{
+    height: 70px;
+}
+.navbar-brand img {
+    margin: 0px;
+    margin-right: 1em;   
+}
+
+.navbar-right {
+    padding-top: 10px;   
+}
+
+html {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#col-but {
+    margin-top: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#about {
+    background-color: #ddd;   
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.element, #about, #who, #contact, #download {
+    margin: 0px;   
+    padding: 0px;
+}
+
+h1, p{
+    margin: 0px;
+    padding: 0px;
+}
